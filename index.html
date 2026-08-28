@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mellow Market 電商 Landing Page 範例">
+  <title>Mellow Market</title>
+  <link rel="stylesheet" href="/css/all.css">
+</head>
+<body>
+  <header class="siteHeader">
+    <div class="siteHeader__inner">
+      <a class="siteHeader__logo" href="/">Mellow Market</a>
+
+      <nav class="siteHeader__nav" aria-label="主要導覽">
+        <a class="siteHeader__link siteHeader__link--active" href="#products">熱門商品</a>
+        <a class="siteHeader__link" href="#features">品牌特色</a>
+        <a class="siteHeader__link" href="#footer">關於我們</a>
+        <a class="siteHeader__cart" href="#" aria-label="購物車">
+          🛒
+          <span class="siteHeader__cartCount" id="cartCount">0</span>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero__inner">
+        <div class="hero__content">
+          <div class="hero__eyebrow" id="heroEyebrow">MELLOW MARKET</div>
+          <h1 class="hero__title" id="heroTitle">生活好物，限時優惠</h1>
+          <p class="hero__description" id="heroDescription">
+            精選日常用品，簡單生活從這裡開始。
+          </p>
+          <div class="hero__actions">
+            <a class="hero__button" id="heroButton" href="#products">立即選購</a>
+          </div>
+        </div>
+
+        <div class="hero__image">
+          <img id="heroImage" src="/images/hero.svg" alt="生活好物展示">
+        </div>
+      </div>
+    </section>
+
+    <section class="productSection" id="products">
+      <div class="productSection__inner">
+        <div class="productSection__header">
+          <h2 class="productSection__title">熱門商品</h2>
+          <p class="productSection__description">精選近期人氣商品</p>
+        </div>
+
+        <div class="productSection__list" id="productList"></div>
+      </div>
+    </section>
+
+    <section class="featureSection" id="features">
+      <div class="featureSection__list" id="featureList"></div>
+    </section>
+  </main>
+
+  <footer class="siteFooter" id="footer">
+    <div class="siteFooter__inner">
+      <div class="siteFooter__main">
+        <div class="siteFooter__brand">
+          <a class="siteFooter__logo" id="footerLogo" href="/">Mellow Market</a>
+          <p class="siteFooter__description" id="footerDescription">
+            精選日常用品，讓生活更簡單。
+          </p>
+        </div>
+
+        <div class="siteFooter__column">
+          <h2 class="siteFooter__title">購物資訊</h2>
+          <a class="siteFooter__link" href="#products">熱門商品</a>
+          <a class="siteFooter__link" href="#products">最新商品</a>
+          <a class="siteFooter__link" href="#products">優惠活動</a>
+        </div>
+
+        <div class="siteFooter__column">
+          <h2 class="siteFooter__title">服務</h2>
+          <a class="siteFooter__link" href="#features">配送說明</a>
+          <a class="siteFooter__link" href="#features">付款方式</a>
+          <a class="siteFooter__link" href="#features">售後服務</a>
+        </div>
+
+        <div class="siteFooter__column">
+          <h2 class="siteFooter__title">關注我們</h2>
+          <a class="siteFooter__link" href="#">Instagram</a>
+          <a class="siteFooter__link" href="#">Facebook</a>
+          <a class="siteFooter__link" href="#">LINE</a>
+        </div>
+      </div>
+
+      <div class="siteFooter__bottom">
+        <p class="siteFooter__copyright" id="footerCopyright">
+          © 2026 Mellow Market. All rights reserved.
+        </p>
+
+        <div class="siteFooter__social">
+          <a class="siteFooter__socialLink" href="#">Privacy</a>
+          <a class="siteFooter__socialLink" href="#">Terms</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="/js/app.js"></script>
+</body>
+</html>
